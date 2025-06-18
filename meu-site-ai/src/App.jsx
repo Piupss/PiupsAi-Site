@@ -1,16 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import ExploreSidebar from './components/ExploreSidebar';
-import Home from './pages/Home'; // Assumindo que 'Home' é um componente real para sua página inicial
-import './index.css'; // Importe o CSS para estilos globais
-
-// Componente para a página inicial
-const HomePage = () => (
-  <div className="flex items-center justify-center h-screen text-white text-2xl">
-    <h1>Bem-vindo à Página Inicial!</h1>
-  </div>
-);
+import ExploreSidebar from './components/ExploreSidebar/ExploreSidebar';
 
 function App() {
   const [isExploreSidebarOpen, setIsExploreSidebarOpen] = useState(false);

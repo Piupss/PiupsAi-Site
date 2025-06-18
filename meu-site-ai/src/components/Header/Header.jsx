@@ -1,6 +1,6 @@
 // src/components/Header.jsx
 import React from 'react';
-import piupsAiLogo from '../assets/logo/piups-ai-logo.png'; // Importe o logo se necessário
+import piupsAiLogo from '../../assets/logo/piups-ai-logo.png'; // Importe o logo se necessário
 import { Link } from 'react-router-dom'; // Importando link para navegação
 
 const Header = ({ onExploreClick, isExploreSidebarOpen }) => {

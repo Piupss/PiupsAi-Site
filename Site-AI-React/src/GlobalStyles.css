@@ -1,0 +1,13 @@
+/* Em seu arquivo de estilos global (ex: global.css ou App.js com createGlobalStyle) */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Isso ajuda a evitar barras de rolagem horizontais indesejadas */
+}
+
+/* Se você estiver usando um reset mais abrangente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
